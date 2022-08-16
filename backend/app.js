@@ -10,13 +10,13 @@ app.get("/", (req, res) => {
     res.send("hello");
 });
 
-let lastColor = "#282c34"; //default color
+let lastColor = "#282c34";
 
 io.on("connection", (socket) => {
     //connection gerçekleştiği anda logluyorum
     console.log("bir kullanıcı bağlandı!");
 
-    socket.emit("receive", lastColor);//bu kanala baglanmak için kanaldır ->herhangi bir client dan butona basıldıgı anda
+    socket.emit("receive", lastColor);//herhangi bir client dan butona basıldıgı anda
     //renk kodu iletildiği anda aktarmışım
     socket.on("newColor", (color) => {
         //gelen coloru burada karşılamışım newColor adında bana bir renk gelmiş
