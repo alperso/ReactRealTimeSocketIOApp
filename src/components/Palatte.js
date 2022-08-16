@@ -3,7 +3,11 @@ import React from 'react';
 
 function Palatte(props) {
     return (
-        <div>Palet</div>
+        <div className="pallette">
+            Palet
+        <input type="color"/>
+        <button>Tüm kullancılara güncelleClick</button>
+        </div>
     );
 }
 
