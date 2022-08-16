@@ -1,0 +1,15 @@
+Terminal ->npm i socket.io-client diyerek backende baglantı saglayacagım
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 7 packages, and audited 1453 packages in 4s
+
+207 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+  ---------------------SOCKETİ KURDUM BACKENDE BAGLNATI SAGLAYACAGIM
+
